@@ -76,7 +76,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: darryl1975/llm-multiroute
+          images: cjgl23/llm-multiroute
           tags: |
             type=sha
             type=ref,event=branch
